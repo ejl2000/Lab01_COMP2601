@@ -2,7 +2,7 @@
  * The {@code IDevice} class represents an abstract parent class for various device types.
  * It defines the common behavior and properties that all devices share.
  *
- * @author Emma Lee, Chris H.
+ * @author Emma Lee, Chris Helmhold
  * @version 2024
  */
 public abstract class IDevice

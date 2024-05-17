@@ -2,7 +2,7 @@
  * The {@code IPhoneFifteen} class extends the {@code IPhone} class to add more specific features.
  * It represents an iPhone with additional properties such as a high-resolution camera and memory size.
  *
- * @author Emma Lee, Chris H.
+ * @author Emma Lee, Chris Helmhold
  * @version 2024
  */
 public class IPhoneFifteen extends IPhone

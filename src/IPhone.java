@@ -2,7 +2,7 @@
  * The {@code IPhone} class extends the {@code IDevice} class to represent an iPhone device.
  * It includes additional properties such as minutes remaining on the phone plan and the carrier.
  *
- * @author Emma Lee, Chris H.
+ * @author Emma Lee, Chris Helmhold
  * @version 2024
  */
 public class IPhone extends IDevice

@@ -2,7 +2,7 @@
  * The {@code IPad} class extends the {@code IDevice} class to represent an iPad device.
  * It includes additional properties such as whether it has a case and the operating system version.
  *
- * @author Emma Lee, Chris H.
+ * @author Emma Lee, Chris Helmhold
  * @version 2024
  */
 public class IPad extends IDevice

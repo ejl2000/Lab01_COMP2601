@@ -2,7 +2,7 @@
  * The {@code IPod} class extends the {@code IDevice} class to represent an iPod device.
  * It includes additional properties such as the number of songs stored and the maximum volume.
  *
- * @author Emma Lee, Chris H.
+ * @author Emma Lee, Chris Helmhold
  * @version 2024
  */
 public class IPod extends IDevice
