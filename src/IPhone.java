@@ -1,5 +1,5 @@
 /**
- * The {@code IPhone} class extends the {@code IDevice} class to represent an iPhone device.
+ * The IPhone class extends the IDevice class to represent an iPhone device.
  * It includes additional properties such as minutes remaining on the phone plan and the carrier.
  *
  * @author Emma Lee, Chris Helmhold
@@ -13,7 +13,7 @@ public class IPhone extends IDevice
     private static final int MINIMUM_MINUTES_REMAINING = 0;
 
     /**
-     * Constructs an {@code IPhone} with the specified parameters.
+     * Constructs an IPhone with the specified parameters.
      *
      * @param minutesRemaining the number of minutes remaining on the phone plan
      * @param carrier the carrier of the phone
@@ -67,7 +67,7 @@ public class IPhone extends IDevice
     }
 
     /**
-     * Prints the details of the {@code IPhone} object.
+     * Prints the details of the IPhone object.
      */
     @Override
     public void printDetails()
@@ -76,7 +76,7 @@ public class IPhone extends IDevice
     }
 
     /**
-     * Returns a String representation of the {@code IPhone} object, including its specific properties.
+     * Returns a String representation of the IPhone object, including its specific properties.
      *
      * @return a String representation of the object
      */
@@ -88,10 +88,10 @@ public class IPhone extends IDevice
 
     /**
      * Indicates whether some other object is "equal to" this one.
-     * Two {@code IPhone} objects are considered equal if they have the same number of minutes remaining on their phone plans.
+     * Two IPhone objects are considered equal if they have the same number of minutes remaining on their phone plans.
      *
      * @param obj the reference object with which to compare
-     * @return {@code true} if this object is the same as the obj argument; {@code false} otherwise
+     * @return true if this object is the same as the obj argument; false otherwise
      */
     @Override
     public boolean equals(final Object obj)

@@ -1,5 +1,5 @@
 /**
- * The {@code IPhoneFifteen} class extends the {@code IPhone} class to add more specific features.
+ * The IPhoneFifteen class extends the IPhone class to add more specific features.
  * It represents an iPhone with additional properties such as a high-resolution camera and memory size.
  *
  * @author Emma Lee, Chris Helmhold
@@ -13,7 +13,7 @@ public class IPhoneFifteen extends IPhone
     private static final int HASHCODE_INTEGER = 31;
 
     /**
-     * Constructs an {@code IPhoneFifteen} with the specified parameters.
+     * Constructs an IPhoneFifteen  with the specified parameters.
      *
      * @param minutesRemaining the number of minutes remaining on the phone plan
      * @param carrier the carrier of the phone
@@ -33,7 +33,7 @@ public class IPhoneFifteen extends IPhone
     /**
      * Returns whether the phone has a high-resolution camera.
      *
-     * @return {@code true} if the phone has a high-resolution camera; {@code false} otherwise
+     * @return true if the phone has a high-resolution camera; false otherwise
      */
     public boolean isHighResCamera()
     {
@@ -43,7 +43,7 @@ public class IPhoneFifteen extends IPhone
     /**
      * Sets whether the phone has a high-resolution camera.
      *
-     * @param highResCamera {@code true} to indicate the phone has a high-resolution camera; {@code false} otherwise
+     * @param highResCamera true to indicate the phone has a high-resolution camera; false otherwise
      */
     public void setHighResCamera(final boolean highResCamera)
     {
@@ -71,7 +71,7 @@ public class IPhoneFifteen extends IPhone
     }
 
     /**
-     * Prints the details of the {@code IPhoneFifteen} object.
+     * Prints the details of the IPhoneFifteen object.
      */
     @Override
     public void printDetails()
@@ -80,7 +80,7 @@ public class IPhoneFifteen extends IPhone
     }
 
     /**
-     * Returns a string representation of the {@code IPhoneFifteen} object, including its specific properties.
+     * Returns a string representation of the IPhoneFifteen object, including its specific properties.
      *
      * @return a string representation of the object
      */
@@ -92,11 +92,11 @@ public class IPhoneFifteen extends IPhone
 
     /**
      * Indicates whether some other object is "equal to" this one.
-     * Two {@code IPhoneFifteen} objects are considered equal if they have the same amount of minutes
+     * Two IPhoneFifteen objects are considered equal if they have the same amount of minutes
      * remaining on their phone plan and the same value for the high-resolution camera.
      *
      * @param obj the reference object with which to compare
-     * @return {@code true} if this object is the same as the obj argument; {@code false} otherwise
+     * @return true if this object is the same as the obj argument; false otherwise
      */
     @Override
     public boolean equals(Object obj)

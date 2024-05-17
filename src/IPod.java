@@ -1,5 +1,5 @@
 /**
- * The {@code IPod} class extends the {@code IDevice} class to represent an iPod device.
+ * The IPod class extends the IDevice class to represent an iPod device.
  * It includes additional properties such as the number of songs stored and the maximum volume.
  *
  * @author Emma Lee, Chris Helmhold
@@ -11,7 +11,7 @@ public class IPod extends IDevice
     private double maxVolume;
 
     /**
-     * Constructs an {@code IPod} with the specified parameters.
+     * Constructs an IPod with the specified parameters.
      *
      * @param numberOfSongs the number of songs stored on the iPod
      * @param maxVolume     the maximum volume of the iPod in decibels
@@ -65,7 +65,7 @@ public class IPod extends IDevice
     }
 
     /**
-     * Prints the details of the {@code IPod} object.
+     * Prints the details of the IPod object.
      */
     @Override
     public void printDetails()
@@ -74,7 +74,7 @@ public class IPod extends IDevice
     }
 
     /**
-     * Returns a String representation of the {@code IPod} object, including its specific properties.
+     * Returns a String representation of the IPod object, including its specific properties.
      *
      * @return a String representation of the object
      */
@@ -86,10 +86,10 @@ public class IPod extends IDevice
 
     /**
      * Indicates whether some other object is "equal to" this one.
-     * Two {@code IPod} objects are considered equal if they have the same number of songs stored.
+     * Two IPod  objects are considered equal if they have the same number of songs stored.
      *
      * @param obj the reference object with which to compare
-     * @return {@code true} if this object is the same as the obj argument; {@code false} otherwise
+     * @return true if this object is the same as the obj argument; false otherwise
      */
     @Override
     public boolean equals(final Object obj)

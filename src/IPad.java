@@ -1,5 +1,5 @@
 /**
- * The {@code IPad} class extends the {@code IDevice} class to represent an iPad device.
+ * The IPad class extends the IDevice lass to represent an iPad device.
  * It includes additional properties such as whether it has a case and the operating system version.
  *
  * @author Emma Lee, Chris Helmhold
@@ -11,7 +11,7 @@ public class IPad extends IDevice
     private String osVersion;
 
     /**
-     * Constructs an {@code IPad} with the specified parameters.
+     * Constructs an IPad with the specified parameters.
      *
      * @param hasCase   indicates whether the iPad has a case
      * @param osVersion the operating system version of the iPad
@@ -27,7 +27,7 @@ public class IPad extends IDevice
     /**
      * Returns whether the iPad has a case.
      *
-     * @return {@code true} if the iPad has a case; {@code false} otherwise
+     * @return true if the iPad has a case; false otherwise
      */
     public boolean isHasCase()
     {
@@ -37,7 +37,7 @@ public class IPad extends IDevice
     /**
      * Sets whether the iPad has a case.
      *
-     * @param hasCase {@code true} to indicate the iPad has a case; {@code false} otherwise
+     * @param hasCase true to indicate the iPad has a case; false otherwise
      */
     public void setHasCase(final boolean hasCase)
     {
@@ -65,7 +65,7 @@ public class IPad extends IDevice
     }
 
     /**
-     * Prints the details of the {@code IPad} object.
+     * Prints the details of the IPad object.
      */
     @Override
     public void printDetails()
@@ -74,7 +74,7 @@ public class IPad extends IDevice
     }
 
     /**
-     * Returns a String representation of the {@code IPad} object, including its specific properties.
+     * Returns a String representation of the IPad object, including its specific properties.
      *
      * @return a String representation of the object
      */
@@ -86,10 +86,10 @@ public class IPad extends IDevice
 
     /**
      * Indicates whether some other object is "equal to" this one.
-     * Two {@code IPad} objects are considered equal if they have the same operating system version.
+     * Two IPad objects are considered equal if they have the same operating system version.
      *
      * @param obj the reference object with which to compare
-     * @return {@code true} if this object is the same as the obj argument; {@code false} otherwise
+     * @return true if this object is the same as the obj argument; false otherwise
      */
     @Override
     public boolean equals (final Object obj)

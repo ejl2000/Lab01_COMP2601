@@ -1,5 +1,5 @@
 /**
- * The {@code IDevice} class represents an abstract parent class for various device types.
+ * The IDevice class represents an abstract parent class for various device types.
  * It defines the common behavior and properties that all devices share.
  *
  * @author Emma Lee, Chris Helmhold
@@ -10,7 +10,7 @@ public abstract class IDevice
     private final String purpose;
 
     /**
-     * Constructs an {@code IDevice} with the specified purpose.
+     * Constructs an IDevice with the specified purpose.
      *
      * @param purpose the purpose of the device
      */
@@ -50,7 +50,7 @@ public abstract class IDevice
      * This method must be implemented by subclasses to compare relevant fields.
      *
      * @param obj the reference object with which to compare
-     * @return {@code true} if this object is the same as the obj argument; {@code false} otherwise
+     * @return true if this object is the same as the obj argument; false otherwise
      */
     @Override
     public abstract boolean equals(final Object obj);
